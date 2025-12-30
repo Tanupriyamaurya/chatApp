@@ -78,8 +78,8 @@ console.error(
         <div className="register">
           <p className="para" >Don't Have an Account?<Link to={'/signup'}><span className="register-now">Register Now!</span></Link></p>
         </div>
-        <div>
-          forgot Password? <Link to={'./'}><span className="click">Click Here </span></Link>
+        <div className='forgot-btn'>
+          <p className='para1'>forgot Password? <Link to={'./'}><span className="click">Click Here </span></Link></p>
         </div>
       </div>
     </div>
