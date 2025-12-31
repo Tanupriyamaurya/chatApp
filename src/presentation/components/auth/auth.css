@@ -1,0 +1,58 @@
+.auth-container {
+  width: 360px;                /* Slightly wider for comfort */
+  margin: 100px auto;          /* More spacing from top */
+  padding: 40px 30px;          /* More padding inside */
+  border-radius: 12px;         /* Slightly rounder corners */
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);  /* Softer, modern shadow */
+  text-align: center;
+  border: 2px solid #3d4042;   /* Blue border */
+  transition: all 0.3s ease;    /* Smooth hover effects */
+}
+
+/* Hover effect to make it interactive */
+.auth-container:hover {
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  border-color: #115293;        /* Darker blue on hover */
+}
+
+.auth-container h2 {
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.auth-container input:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background: #1976d2;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.auth-container button:hover {
+  background: #115293;
+  transform: translateY(-2px);  /* Subtle lift effect */
+}

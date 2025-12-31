@@ -1,0 +1,100 @@
+.track-order-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.order-card {
+  background: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.order-card p {
+  margin: 6px 0;
+}
+
+.status {
+  font-weight: bold;
+  color: #2e7d32;
+  margin-left: 5px;
+}
+.progress-wrapper {
+  position: relative;
+  margin: 40px 0 35px;
+}
+
+
+.progress-line {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #e0e0e0;
+  z-index: 0;
+}
+
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+
+.circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+.circle.active {
+  background: #4caf50;
+  color: #fff;
+}
+.label {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+.label.active {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background: #125aa3;
+}

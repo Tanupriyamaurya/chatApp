@@ -1,0 +1,43 @@
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 10px;
+}
+
+.author-card {
+  background: #ffffff;
+  padding: 18px 16px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.author-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.author-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #f1f1f1;
+}
+
+.author-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0;
+  color: #222;
+}
+
+.author-bio {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
