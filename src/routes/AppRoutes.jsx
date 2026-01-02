@@ -63,12 +63,16 @@ const AppRoutes = () => {
           </ProtectedRoute>
         }
       />
-
+      
       <Route
         path="/about"
         element={
-          <AboutUs />}
+          <AboutUs/>
+        }
       />
+
+        
+    
 
       <Route
         path="/contact"
