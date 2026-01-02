@@ -70,17 +70,6 @@ const AppRoutes = () => {
           <AboutUs/>
         }
       />
-
-        
-    
-
-      <Route
-        path="/contact"
-        element={
-          <ContactUs />
-        }
-      />
-
       <Route
         path="/privacy-policy"
         element={
