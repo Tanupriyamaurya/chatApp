@@ -67,22 +67,21 @@ const AppRoutes = () => {
       <Route
         path="/about"
         element={
-            <AboutUs />
-        }
+          <AboutUs />}
       />
 
       <Route
         path="/contact"
         element={
-            <ContactUs />
+          <ContactUs />
         }
       />
 
       <Route
         path="/privacy-policy"
         element={
-        
-            <PrivacyPolicy />
+
+          <PrivacyPolicy />
         }
       />
       <Route path="/terms" element={<TermsAndConditions />} />
